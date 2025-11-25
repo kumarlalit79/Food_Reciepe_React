@@ -1,0 +1,102 @@
+/* GLOBAL */
+body {
+  background-color: #0d1117;
+  font-family: "Poppins", sans-serif;
+  color: #e6edf3;
+  margin: 0;
+}
+
+/* HEADER */
+.meal-header {
+  background: linear-gradient(45deg, #6a00ff, #c800ff);
+  padding: 28px;
+  text-align: center;
+  border-bottom: 3px solid #9d4bff;
+}
+
+.meal-logo {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.meal-subtitle {
+  opacity: 0.8;
+  margin-top: 5px;
+}
+
+/* SELECTED AREA */
+.selected-area {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.selected-area span {
+  color: #64ffda;
+}
+
+/* BUTTON STYLING */
+.meal-buttons .btn {
+  margin: 6px;
+  padding: 10px 18px;
+}
+
+.btn-selected {
+  background-color: #8e66ff;
+  color: white !important;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(142, 102, 255, 0.8);
+}
+
+/* MEAL GRID */
+.meal-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 25px;
+}
+
+/* CARD */
+.meal-card {
+  width: 250px;
+  background: #161b22;
+  padding: 15px;
+  border-radius: 18px;
+  text-align: center;
+  border: 1px solid #21262d;
+  transition: 0.3s ease;
+}
+
+.meal-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgba(100, 255, 218, 0.4);
+  border-color: #64ffda;
+}
+
+/* IMAGE */
+.meal-img {
+  width: 100%;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.meal-card:hover .meal-img {
+  transform: translateY(-5px);
+}
+
+/* TITLE */
+.meal-title {
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* FOOTER */
+.meal-footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 15px;
+  opacity: 0.6;
+}
